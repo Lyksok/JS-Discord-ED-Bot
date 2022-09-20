@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "add-cmds":"node ./Scripts/handleCommands.js",
-    "del-cmds":"node ./Scripts/deleteIntegration.js"
+    "add-cmds": "node ./Scripts/handleCommands.js",
+    "del-cmds": "node ./Scripts/deleteIntegration.js"
   },
   "keywords": [],
   "author": "Jans",
