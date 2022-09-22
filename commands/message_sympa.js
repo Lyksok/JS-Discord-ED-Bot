@@ -16,10 +16,11 @@ module.exports = {
     const Embed = new EmbedBuilder()
       .addFields({
         name: "Message",
-        value: randomMessages[Math.floor(Math.random() * items.length)],
+        value:
+          randomMessages[Math.floor(Math.random() * randomMessages.length)],
       })
       .setTimestamp()
-      .setFooter({ text: `Message Author : FDP ca marche pas` });
+      .setFooter({ text: `Author : ${interaction.user.username}` });
     await interaction.reply({ embeds: [Embed] });
   },
 };
