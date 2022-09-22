@@ -20,7 +20,7 @@ module.exports = {
           randomMessages[Math.floor(Math.random() * randomMessages.length)],
       })
       .setTimestamp()
-      .setFooter({ text: `Author : ${interaction.user.username}` });
+      .setFooter({ text: `Author: ${interaction.user.username}` });
     await interaction.reply({ embeds: [Embed] });
   },
 };
